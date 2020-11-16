@@ -1,0 +1,122 @@
+@import "colores";
+@import "tipografia";
+
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+
+body#index{
+	background-image: url("../images/fondobienvenido.jpg");
+	background-color: no-repeat;
+	background-size: cover;
+	font-family: $tipografiaGeneral;
+	font-size: 15px;
+	line-height: 2em;
+	text-align:center;
+}
+
+body#contacto{
+      background-image: url("../images/frutillar.jpg"); 
+      background-repeat: no-repeat; 
+	  background-size: cover; 
+}
+
+body#historia{
+      background-image: url("../images/fondohistoria.jpg"); 
+      background-repeat: no-repeat; 
+	  background-size: cover; 
+}
+
+body#bohemia{
+      background-image: url("../images/fondobohemia.jpg"); 
+      background-repeat: no-repeat;
+	  background-size: cover;
+}
+
+.card-border{
+	width: 22rem;
+	border: solid 3px #999999;
+	overflow: hidden;
+	transition: all ease-out 0.2s;
+  &:hover{
+	   transform: scale(1.10);
+  }
+}
+
+.card-body{
+  width: 100%;
+  margin:0%;
+  color:#fff;
+}
+
+
+.card, .contac-form{
+	background: rgba(0,0,0, .3);
+	color: white;
+	margin-top: 0px;
+	padding: 5px;
+	box-shadow: 0px 0px 10px 3px grey;
+}
+
+
+
+.gallery-container{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-auto-rows: 150px;
+	padding: 20px;
+	grid-gap: 10px;
+}
+
+.gallery-img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery-item:nth-child(4){
+	grid-column-start: span 2;
+}
+
+.gallery-item:nth-child(5){
+	grid-row-start: span 2;
+}
+
+.gallery-item:nth-child(9){
+	grid-column-start: span 2;
+}
+
+
+.redes-sociales{
+	background: $PPColorBack;
+	padding: 20px;
+    i{ 
+	     color:$PPColorParrafo;
+	     text-decoration: none;
+	&:hover{
+	     color:$PPColorHover;  
+       }
+    }
+}
+
+
+.copyright{
+	background: $PPColorBack;
+    p{
+	   color:$PPColorParrafo;
+	   padding: 20px 0;
+	   text-align: center;
+     }
+   }
+
+.inner{
+	overflow: hidden;
+    img{
+	   transition: all 1.5s ease;
+    &:hover{
+	  transform: scale(1.5);
+    }  
+  }
+}
+
