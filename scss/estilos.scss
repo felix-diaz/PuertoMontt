@@ -10,12 +10,8 @@
     background-color: black;
 }*/
 
-.navbar-light .navbar-nav .nav-link {
-color: orange;
-}
-/*  Este es para el elemento activo lo puedes omitir si asi deseas */
-.navbar-light .navbar-nav .active>.nav-link  {
- color: red;
+.navbar-custom {
+       background-color: #ff5500;
 }
 
 body#index{
