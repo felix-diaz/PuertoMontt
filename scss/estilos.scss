@@ -10,10 +10,9 @@ nav.navbar {
     background-color: red;
 }
 
-nav.navbar ul.nav li {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color:white;
-}
+.navbar-default .navbar-brand{
+  color:white;
+  }
 
 body#index{
 	background-image: url("../images/fondobienvenido.jpg");
