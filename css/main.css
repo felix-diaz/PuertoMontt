@@ -13,11 +13,11 @@
 .nav-link {
   color: #FFFFFF; }
 
-.nav-item:hover {
-  color: #ffffff; }
+.icon-bar {
+  background-color: #5E5D5D; }
 
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: black; }
+.navbar-toggle .navbar-toggler-icon {
+  background-color: #DAD8D8; }
 
 body#index {
   background-image: url("../images/fondobienvenido.jpg");

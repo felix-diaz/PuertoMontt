@@ -17,12 +17,12 @@
 .nav-link {
        color: $NavColorLink;
 }
-.nav-item:hover{
-       color: #ffffff;
-}
 
-.navbar-default .navbar-toggle .icon-bar {
-       background-color: black;
+.icon-bar {
+background-color: #5E5D5D;
+}
+.navbar-toggle .navbar-toggler-icon{
+background-color: #DAD8D8;
 }
 
 body#index{
