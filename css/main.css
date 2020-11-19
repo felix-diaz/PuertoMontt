@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0;
-  box-sizing: border-box;
-  padding-top: 70px; }
+  box-sizing: border-box; }
 
 /*nav.navbar {
     background-color: black;
