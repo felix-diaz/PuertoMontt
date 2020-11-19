@@ -20,6 +20,10 @@ navbar-default .navbar-nav li a{
   font-weight:bold;
   }
 
+  .navbar-default .navbar-nav li a:hover {
+  color:#609cd3;
+  } 
+
 body#index{
 	background-image: url("../images/fondobienvenido.jpg");
 	background-color: no-repeat;
