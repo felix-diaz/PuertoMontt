@@ -13,6 +13,9 @@
 .nav-link {
   color: #FFFFFF; }
 
+.nav-item:hover {
+  color: #ffffff; }
+
 body#index {
   background-image: url("../images/fondobienvenido.jpg");
   background-color: no-repeat;
