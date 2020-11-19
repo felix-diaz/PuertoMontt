@@ -14,6 +14,11 @@
        background-color: #ff5500;
 }
 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+       color: rgba(255,255,255,.8);
+}
+
 body#index{
 	background-image: url("../images/fondobienvenido.jpg");
 	background-color: no-repeat;
