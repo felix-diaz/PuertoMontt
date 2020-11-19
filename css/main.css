@@ -16,6 +16,9 @@
 .nav-item:hover {
   color: #ffffff; }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black; }
+
 body#index {
   background-image: url("../images/fondobienvenido.jpg");
   background-color: no-repeat;
