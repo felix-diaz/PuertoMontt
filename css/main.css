@@ -10,7 +10,7 @@
 .navbar-custom {
   background-color: #ff5500; }
 
-.navbar-custom .navbar-nav .nav-link {
+.nav-link {
   color: rgba(255, 255, 255, 0.5); }
 
 body#index {
