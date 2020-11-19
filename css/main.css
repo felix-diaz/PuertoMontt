@@ -4,9 +4,6 @@
   margin: 0;
   box-sizing: border-box; }
 
-/*nav.navbar {
-    background-color: black;
-}*/
 .navbar-custom {
   background-color: #004872; }
 
@@ -26,7 +23,8 @@ body#index {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   line-height: 2em;
-  text-align: center; }
+  text-align: center;
+  padding-top: 70px; }
 
 body#contacto {
   background-image: url("../images/frutillar.jpg");
@@ -58,7 +56,6 @@ body#gastronomia {
   background-repeat: none;
   background-size: cover; }
 
-/* gasttronomia*/
 a {
   text-decoration: none; }
 
