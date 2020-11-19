@@ -4,6 +4,9 @@
   margin: 0;
   box-sizing: border-box; }
 
+nav.navbar {
+  background-color: #CC1414; }
+
 body#index {
   background-image: url("../images/fondobienvenido.jpg");
   background-color: no-repeat;
