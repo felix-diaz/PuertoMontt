@@ -24,6 +24,10 @@ navbar-default .navbar-nav li a{
   color:#609cd3;
   } 
 
+  .container-fluid header nav ul li a{
+    color: orange !important;
+}
+
 body#index{
 	background-image: url("../images/fondobienvenido.jpg");
 	background-color: no-repeat;
