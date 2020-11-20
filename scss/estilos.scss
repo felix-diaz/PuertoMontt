@@ -24,16 +24,6 @@ background-color: #5E5D5D;
 background-color: #DAD8D8;
 }*/
 
-body#index{
-	background-image: url("../images/fondobienvenido.jpg");
-	background-color: no-repeat;
-	background-size: cover;
-	font-family: $tipografiaGeneral;
-	font-size: 15px;
-	line-height: 2em;
-	text-align:center;
-}
-
 
 body#contacto{
       background-image: url("../images/frutillar.jpg"); 
@@ -57,6 +47,7 @@ body#parques{
       background-image: url("../images/fondoparques.jpg"); 
       background-repeat: no-repeat;
 	  background-size: cover;
+	  padding-bottom: 70px;
 }
 
 body#gastronomia{
@@ -69,6 +60,7 @@ body#gastronomia{
 	 background-repeat: none;
 	 background-size: cover;
 }
+
 
 
 a {
@@ -98,10 +90,6 @@ figure {
 	position: relative;
 	transition: all ease .5s;
 	transform-style: preserve-3d;
-	/* Nota:
-		Establecemos que la imagen tendra una rotacion de 0grados al inicio porque si no
-		ponemos esta propiedad nos da un poco de problemas en algunos navegadores al pasar el cursor.
-	*/
 	transform: perspective(600px) rotateY(0deg);
 }
 
@@ -114,10 +102,7 @@ figure .trasera {
 }
 
 figure .frontal {
-/*	display: block;*/
 	background: #000;
-
-	/* Podemos ocultar la imagen al da la vuelta si lo queremos */
 	backface-visibility: hidden;
 }
 
@@ -225,24 +210,28 @@ figure .trasera p {
 
 
 
-.card-border{
-	width: 22rem;
+/*.card-border{
+	width: 300px;
 	border: solid 3px #999999;
 	overflow: hidden;
 	transition: all ease-out 0.2s;
   &:hover{
 	   transform: scale(1.10);
   }
-}
+}*/
 
 .card-body{
   width: 100%;
-  margin:0%;
+  margin:10%;
   color:#fff;
 }
 
+.card{
+	color:#fff;
+	background: rgba(0,0,0, .3);
+}
 
-.card, .contac-form{
+.contac-form{
 	background: rgba(0,0,0, .3);
 	color: white;
 	margin-top: 0px;
@@ -281,7 +270,7 @@ figure .trasera p {
 
 .redes-sociales{
 	background: $PPColorBack;
-	padding: 20px;
+	padding-top: 14px;
     i{ 
 	     color:$PPColorParrafo;
 	     text-decoration: none;
@@ -296,7 +285,7 @@ figure .trasera p {
 	background: $PPColorBack;
     p{
 	   color:$PPColorParrafo;
-	   padding: 20px 0;
+	   padding-top: 10px;
 	   text-align: center;
      }
    }
