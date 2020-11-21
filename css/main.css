@@ -20,8 +20,8 @@ background-color: #5E5D5D;
 .navbar-toggler{
 background-color: #DAD8D8;
 }*/
-#contacto {
-  background: "../images/frutillar.jpg";
+body#contacto {
+  background-image: url("../images/frutillarpuente.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover; }
@@ -155,11 +155,7 @@ figure .trasera p {
   margin: 10%;
   color: #fff; }
 
-.card {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.3); }
-
-.contac-form {
+.card, .contac-form {
   background: rgba(0, 0, 0, 0.3);
   color: white;
   margin-top: 0px;
