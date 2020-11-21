@@ -31,9 +31,13 @@ body#contacto{
 	object-fit: cover;
 }
 
-a {
-	text-decoration: none;
+body#config-pag{
+	padding-top: 70px;
 }
+
+/*a {
+	text-decoration: none;
+}*/
 
 .contenedor_tarjeta {
 	margin: 10px;
@@ -181,7 +185,7 @@ figure .trasera p {
 }
 
 
-.contac-form{
+.card, .contac-form{
 	background: rgba(0,0,0, .3);
 	color: white;
 	margin-top: 0px;

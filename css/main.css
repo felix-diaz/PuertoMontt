@@ -21,14 +21,18 @@ background-color: #5E5D5D;
 background-color: #DAD8D8;
 }*/
 body#contacto {
+  padding-top: 70px;
   background-image: url("../images/frutillarpuente.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover; }
 
-a {
-  text-decoration: none; }
+body#config-pag {
+  padding-top: 70px; }
 
+/*a {
+	text-decoration: none;
+}*/
 .contenedor_tarjeta {
   margin: 10px; }
 
