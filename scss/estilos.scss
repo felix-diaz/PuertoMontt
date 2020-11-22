@@ -1,28 +1,13 @@
 @import "colores";
 @import "tipografia";
+@import "navbar";
+@import "medias";
 
 *{
 	margin:0;
 	box-sizing: border-box;
 }
 
-
-/*
-.navbar-custom {
-       background-color: $NavColorBackground;
-}
-
-.nav-link {
-       color: $NavColorLink;
-}
-
-
-.icon-bar {
-background-color: #5E5D5D;
-}
-.navbar-toggler{
-background-color: #DAD8D8;
-}*/
 
 body#contacto{
 	background-image: url("../images/frutillarpuente.jpg");

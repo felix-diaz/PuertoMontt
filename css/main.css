@@ -1,27 +1,59 @@
 /*Configuracion Pie de Pagina*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.navbar {
+  padding: 20px 0; }
+
+.navbar-brand {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 2em;
+  color: #262626; }
+
+.nav-item {
+  font-weight: 800;
+  text-transform: uppercase; }
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  background: #ff2670;
+  color: #fff; }
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  padding: 5px 15px; }
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center; }
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none; }
+
+.navbar-light .navbar-toggler {
+  border: none;
+  color: #fff;
+  border: 2px solid #7f7f77;
+  border-radius: 0;
+  outline: none; }
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 100px; }
+  .banner h2 {
+    font-size: 1.8em; }
+  .navbar-collapse {
+    background: #C0C0C0; }
+  .nav-link {
+    color: #ffffff; } }
+
 * {
   margin: 0;
   box-sizing: border-box; }
 
-/*
-.navbar-custom {
-       background-color: $NavColorBackground;
-}
-
-.nav-link {
-       color: $NavColorLink;
-}
-
-
-.icon-bar {
-background-color: #5E5D5D;
-}
-.navbar-toggler{
-background-color: #DAD8D8;
-}*/
 body#contacto {
-  padding-top: 70px;
   background-image: url("../images/frutillarpuente.jpg");
   background-size: cover;
   background-repeat: no-repeat;
