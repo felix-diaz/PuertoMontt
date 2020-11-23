@@ -53,8 +53,54 @@
   margin: 0;
   box-sizing: border-box; }
 
-body#contacto {
+header {
+  position: absolute;
+  z-index: 10;
+  width: 100%; }
+
+.banner-principal {
+  position: relative;
   background-image: url("../images/frutillarpuente.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  padding: 250px 0 200px; }
+
+.banner-principal p {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #000000;
+  /*font-weight: bold*/ }
+
+.banner-principal h1 {
+  color: #000000;
+  font-weight: bold; }
+
+.btnD1 {
+  display: inline-block;
+  margin: 1em 0 0;
+  background: #ff2670;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-weight: 800; }
+
+.btnD1:hover {
+  color: #FFFF00;
+  text-decoration: none; }
+
+body#contacto {
+  background-image: url("../images/frutillar.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover; }
+
+body#historia {
+  background-image: url("../images/fondohistoria.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover; }
@@ -62,9 +108,6 @@ body#contacto {
 body#config-pag {
   padding-top: 70px; }
 
-/*a {
-	text-decoration: none;
-}*/
 .contenedor_tarjeta {
   margin: 10px; }
 
@@ -241,3 +284,14 @@ figure .trasera p {
     transition: all 1.5s ease; }
     .inner img:hover {
       transform: scale(1.5); }
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border: solid 1px #555;
+  background-color: #eed;
+  box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+  border-radius: 100px; }
