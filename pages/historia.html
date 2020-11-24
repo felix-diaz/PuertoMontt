@@ -231,10 +231,6 @@
     <hr>
     <div class="container-fluid mt-4">
          <div class="row justify-content-center">
-          <div class="col-lg-4">
-                <h5 class="text-center text-white">Casa del Arte Diego Rivera</h5>
-                <p class="text-justify text-white">Está ubicada en el centro de Puerto Montt en la esquina de las calles Antonio Varas y Quillota. Fue inaugurada el 14 de noviembre de 1964 con la concurrencia de la esposa del Presidente de México, señora Eva Sámano de López Mateos. El edificio lleva el nombre del famoso pintor y muralista mexicano Diego Rivera en agradecimiento al pueblo de México por su generosa colaboración para construirlo.</p>
-            </div>  
             <div class="col-lg-4 text-center">
                   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -245,19 +241,19 @@
                         </ol>
                         <div class="carousel-inner justify-content-center">
                             <div class="carousel-item active">
-                                  <img src="../images/catedral1.jpg" class="d-block w-100 img-responsive" alt="casa-pauly" width="250px" height="200px">
+                                  <img src="../images/casadiegorivera1.jpg" class="d-block w-100 img-responsive" alt="casa-diegorivera" width="250px" height="200px">
                             </div>
 
                             <div class="carousel-item">
-                                <img src="../images/catedral2.jpeg" class="d-block w-100 img-responsive" alt="casa-pauly" width="250px" height="200px">
+                                <img src="../images/casadiegorivera2.jpg" class="d-block w-100 img-responsive" alt="casa-diegorivera" width="250px" height="200px">
                             </div>
 
                             <div class="carousel-item">
-                                <img src="../images/catedral3.jpg" class="d-block w-100 img-responsive" alt="casa-pauly" width="250px" height="200px">
+                                <img src="../images/casadiegorivera3.jpg" class="d-block w-100 img-responsive" alt="casa-diegorivera" width="250px" height="200px">
                             </div>
 
                             <div class="carousel-item">
-                                <img src="../images/catedral4.jpg" class="d-block w-100 img-responsive" alt="casa-pauly" width="250px" height="200px">
+                                <img src="../images/casadiegorivera4.jpg" class="d-block w-100 img-responsive" alt="casa-diegorivera" width="250px" height="200px">
                             </div>
                          </div>
                          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -270,17 +266,14 @@
                           </a>
                    </div>
             </div>
+            <div class="col-lg-4">
+                <h5 class="text-center text-white">Casa del Arte Diego Rivera</h5>
+                <p class="text-justify text-white">Está ubicada en el centro de Puerto Montt en la esquina de las calles Antonio Varas y Quillota. Fue inaugurada el 14 de noviembre de 1964 con la concurrencia de la esposa del Presidente de México, señora Eva Sámano de López Mateos. El edificio lleva el nombre del famoso pintor y muralista mexicano Diego Rivera en agradecimiento al pueblo de México por su generosa colaboración para construirlo.</p>
+            </div>  
         </div>
     </div>
     
-
-
-
-
-
-
-        
-    <footer>
+   <footer>
          <div class="container-fluid mt-2">
             <div class="row redes-sociales">
                <div class="col-md-4">
@@ -320,5 +313,13 @@
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <script>
+          $(document).ready(function(){
+          $('.carousel').carousel({
+          interval: 2000
+            });
+          });
+    </script>
 </body>
 </html>
