@@ -111,6 +111,12 @@ body#turismo {
   background-repeat: no-repeat;
   object-fit: cover; }
 
+body#parques {
+  background-image: url("../images/fondoparques.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover; }
+
 body#config-pag {
   padding-top: 70px; }
 
@@ -290,9 +296,3 @@ figure .trasera p {
     transition: all 1.5s ease; }
     .inner img:hover {
       transform: scale(1.5); }
-
-.imagen {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%; }
