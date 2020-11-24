@@ -105,6 +105,13 @@ body#historia {
   background-repeat: no-repeat;
   object-fit: cover; }
 
+body#turismo {
+  background-image: url("../images/fondoturismo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 70px; }
+
 body#config-pag {
   padding-top: 70px; }
 
