@@ -284,3 +284,9 @@ figure .trasera p {
     transition: all 1.5s ease; }
     .inner img:hover {
       transform: scale(1.5); }
+
+.imagen {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%; }
