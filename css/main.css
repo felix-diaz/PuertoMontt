@@ -1,7 +1,7 @@
 /*Configuracion Pie de Pagina*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .navbar {
-  padding: 20px 0; }
+  padding: 20px 0px; }
 
 .navbar-brand {
   font-weight: 800;
@@ -56,7 +56,7 @@
 header {
   position: absolute;
   z-index: 10;
-  width: 100%; }
+  width: 100%;}
 
 .banner-principal {
   position: relative;
@@ -65,7 +65,7 @@ header {
   background-size: cover;
   object-fit: cover;
   background-position: center;
-  padding: 250px 0 200px; }
+  padding: 250px 0 200px;}
 
 .banner-principal p {
   margin: 0;
