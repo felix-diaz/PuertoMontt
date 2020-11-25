@@ -1,15 +1,14 @@
 @media(max-width: 768px)
 {
-	.banner	{
+	/*.banner	{
 		padding: 100px;
 	}
 	.banner h2{
 		font-size: 1.8em;
-	}
-	.navbar-collapse {
-		background: #C0C0C0;
-	}
-	.nav-link{
-		color: #ffffff; 
-	}
+	}*/
+	
+     .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
 }
