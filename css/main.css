@@ -15,7 +15,7 @@
 
 .navbar-light .navbar-nav .nav-item .nav-link:hover,
 .navbar-light .navbar-nav .nav-item.active .nav-link {
-  background: #ff2670;
+  background: #0000CD;
   color: #fff; }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
@@ -33,10 +33,10 @@
   float: none; }
 
 .navbar-light .navbar-toggler {
-  border: none;
-  color: #fff;
-  border: 2px solid #7f7f77;
-  border-radius: 0;
+  color: red;
+  border: 2px solid #ffffff;
+  background-color: white;
+  border-radius: 10;
   outline: none; }
 
 @media (max-width: 768px) {
@@ -82,7 +82,7 @@
 .btnD1 {
   display: inline-block;
   margin: 1em 0 0;
-  background: #ff2670;
+  background: #0000CD;
   color: #fff;
   padding: 10px 20px;
   text-transform: uppercase;
@@ -280,16 +280,16 @@ figure .trasera p {
   grid-column-start: span 2; }
 
 .redes-sociales {
-  background: #004872;
+  background: #1E90FF;
   padding-top: 14px; }
   .redes-sociales i {
     color: #ffffff;
     text-decoration: none; }
     .redes-sociales i:hover {
-      color: #ffff00; }
+      color: #FFFF00; }
 
 .copyright {
-  background: #004872; }
+  background: #1E90FF; }
   .copyright p {
     color: #ffffff;
     padding-top: 10px;

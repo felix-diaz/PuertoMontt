@@ -6,7 +6,7 @@
 	font-weight: 800;
 	text-transform: uppercase;
 	font-size: 2em;
-	color: #262626;
+	color: $NavbarBrandColor;
 }
 
 .nav-item{
@@ -16,12 +16,12 @@
 
 .navbar-light .navbar-nav .nav-item .nav-link:hover,
 .navbar-light .navbar-nav .nav-item.active .nav-link{
-	background: #ff2670;
-	color:#fff;
+	background: $NavColorBackHover;
+	color: $NavColorHover;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link{
-	color: #ffffff;
+	color: $NavColorOpcionesMenu;
 	padding: 5px 15px;
 }
 
@@ -39,9 +39,8 @@
 }
 
 .navbar-light .navbar-toggler{
-	border:none;
-	color:#fff;
-	border: 2px solid #7f7f77;
-	border-radius: 0;
+	border: 2px solid $NavColorBorderTogleer;
+	background-color: $NavColorBackgroundTogleer;
+	border-radius: 10;
 	outline: none;
 }

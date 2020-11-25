@@ -1,6 +1,6 @@
 @import "_colores";
 @import "_tipografia";
-@import "_menu";
+@import "_navbar";
 @import "_medias";
 
 *{
@@ -44,7 +44,7 @@
 .btnD1{
 	display: inline-block;
 	margin: 1em 0 0;
-	background: #ff2670;
+	background: #0000CD;
 	color: #fff;
 	padding: 10px 20px;
 	text-transform: uppercase;
@@ -280,22 +280,22 @@ figure .trasera p {
 
 
 .redes-sociales{
-	background: $PPColorBack;
+	background: $FooterColorBack;
 	padding-top: 14px;
     i{ 
-	     color:$PPColorParrafo;
+	     color: $FooterColorLetra;
 	     text-decoration: none;
 	&:hover{
-	     color:$PPColorHover;  
+	     color:$FooterColorHover;  
        }
     }
 }
 
 
 .copyright{
-	background: $PPColorBack;
+	background: $FooterColorBack;
     p{
-	   color:$PPColorParrafo;
+	   color: $FooterColorLetra;
 	   padding-top: 10px;
 	   text-align: center;
      }
