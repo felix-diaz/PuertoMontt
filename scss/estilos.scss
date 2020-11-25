@@ -1,7 +1,7 @@
-@import "colores";
-@import "tipografia";
-@import "navbar";
-@import "medias";
+@import "_colores";
+@import "_tipografia";
+@import "_navbar";
+@import "_medias";
 
 *{
 	margin:0;
@@ -14,7 +14,6 @@ header{
 	z-index: 10;
 	width: 100%;
 }
-
 
 
 .banner-principal{
@@ -86,8 +85,18 @@ body#parques{
 	object-fit: cover;
 }
 
-body#config-pag{
-	padding-top: 70px;
+body#gastronomia{
+	background-image: url("../images/fondogastronomia.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	object-fit: cover;
+}
+
+body#gastronomia{
+	background-image: url("../images/fondobohemia.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	object-fit: cover;
 }
 
 

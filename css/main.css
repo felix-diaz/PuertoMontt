@@ -117,8 +117,17 @@ body#parques {
   background-repeat: no-repeat;
   object-fit: cover; }
 
-body#config-pag {
-  padding-top: 70px; }
+body#gastronomia {
+  background-image: url("../images/fondogastronomia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover; }
+
+body#gastronomia {
+  background-image: url("../images/fondobohemia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover; }
 
 .contenedor_tarjeta {
   margin: 10px; }
