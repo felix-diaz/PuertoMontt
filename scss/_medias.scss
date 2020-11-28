@@ -29,4 +29,22 @@
     	line-height: 1.2em;
     	font-size: 1.5em;
     }
+
+    .container-fluid .row, .col, .table thead th{
+        font-size: 1em;
+        padding-left: 2em;
+    }
+   
+    .gallery-item:nth-child(2){
+	    grid-column-start: span 2;
+      }
+
+     .gallery-item:nth-child(3){
+	    grid-column-start: span 3;
+      }
+
+      .navbar-brand img{
+      	padding-top: 10px;
+      	width:72px;
+      }
 }

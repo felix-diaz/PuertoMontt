@@ -55,7 +55,17 @@
     font-size: 2em; }
   section .container p {
     line-height: 1.2em;
-    font-size: 1.5em; } }
+    font-size: 1.5em; }
+  .container-fluid .row, .col, .table thead th {
+    font-size: 1em;
+    padding-left: 2em; }
+  .gallery-item:nth-child(2) {
+    grid-column-start: span 2; }
+  .gallery-item:nth-child(3) {
+    grid-column-start: span 3; }
+  .navbar-brand img {
+    padding-top: 10px;
+    width: 72px; } }
 
 * {
   margin: 0;
@@ -73,19 +83,19 @@
   background-size: cover;
   object-fit: cover;
   background-position: center;
-  padding: 200px 0 200px; }
+  padding: 180px 0 200px; }
 
 .banner-principal h1 {
-  color: #FF00FF;
-  font-weight: bold; }
+  color: #ffffff;
+  font-weight: 600; }
 
 .banner-principal p {
   margin: 0;
   padding: 0;
   font-size: 1.5em;
   line-height: 1.5em;
-  color: #FF00FF;
-  /*font-weight: bold;*/ }
+  color: #ffffff;
+  font-weight: 500; }
 
 .btnD1 {
   display: inline-block;
@@ -288,7 +298,7 @@ figure .trasera p {
   grid-column-start: span 2; }
 
 .redes-sociales {
-  background: #1E90FF;
+  background: #808080;
   padding-top: 14px; }
   .redes-sociales i {
     color: #ffffff;
@@ -297,7 +307,7 @@ figure .trasera p {
       color: #FFFF00; }
 
 .copyright {
-  background: #1E90FF; }
+  background: #808080; }
   .copyright p {
     color: #ffffff;
     padding-top: 10px;
