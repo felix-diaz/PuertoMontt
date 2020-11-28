@@ -39,12 +39,14 @@
   outline: none; }
 
 @media (max-width: 768px) {
-  /*.banner	{
-		padding: 100px;
-	}
-	.banner h2{
-		font-size: 1.8em;
-	}*/
+  footer {
+    padding-top: 20px; }
+  footer .container-fluid, .row.col-lg-4 a, img {
+    text-align: center; }
+  footer .container-fluid {
+    text-align: center;
+    align-items: center;
+    background: red; }
   .navbar-collapse {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); } }
