@@ -41,11 +41,16 @@
 @media (max-width: 768px) {
   footer {
     padding-top: 20px; }
-  footer .container-fluid, .row.col-lg-4 a, img {
-    text-align: center; }
-  footer .container-fluid {
+  footer .logo, a img {
     text-align: center;
     align-items: center; }
+  footer .copyright p {
+    text-align: center;
+    align-items: center; }
+  footer .redes-sociales {
+    text-align: center;
+    align-items: center;
+    padding-top: 3px; }
   .navbar-collapse {
     border-top: 1px solid transparent;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
@@ -62,10 +67,7 @@
   .gallery-item:nth-child(2) {
     grid-column-start: span 2; }
   .gallery-item:nth-child(3) {
-    grid-column-start: span 3; }
-  .navbar-brand img {
-    padding-top: 10px;
-    width: 72px; } }
+    grid-column-start: span 3; } }
 
 * {
   margin: 0;
@@ -299,12 +301,13 @@ figure .trasera p {
 
 .redes-sociales {
   background: #808080;
-  padding-top: 14px; }
+  padding-top: 14px;
+  text-align: right; }
   .redes-sociales i {
     color: #ffffff;
     text-decoration: none; }
     .redes-sociales i:hover {
-      color: #FFFF00; }
+      color: #000080; }
 
 .copyright {
   background: #808080; }
@@ -312,6 +315,9 @@ figure .trasera p {
     color: #ffffff;
     padding-top: 10px;
     text-align: center; }
+
+.logo {
+  text-align: left; }
 
 .inner {
   overflow: hidden; }
