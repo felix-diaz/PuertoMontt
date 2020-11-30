@@ -302,7 +302,7 @@ figure .trasera p {
   grid-column-start: span 2; }
 
 .redes-sociales {
-  background: #0000FF;
+  background: #ADD8E6;
   padding-top: 14px;
   text-align: right; }
   .redes-sociales i {
@@ -312,7 +312,7 @@ figure .trasera p {
       color: #000080; }
 
 .copyright {
-  background: #0000FF; }
+  background: #ADD8E6; }
   .copyright p {
     color: #ffffff;
     padding-top: 10px;
